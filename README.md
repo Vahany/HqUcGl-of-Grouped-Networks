@@ -24,5 +24,5 @@ Then the gridlay2dense.py takes the .mod file as input and produces a .dense fil
 Then the dense2bee.py takes the .dense file as input and produces a .bee file as output,
 then the .bee file is solved using the BumbleBEE solver.
 
-![alt tag](https://raw.github.com/Vahany/HqUcGl-of-Grouped-Networks/master/images/composers.png)
+![alt tag](https://raw.github.com/Vahany/HqUcGl-of-Grouped-Networks/tree/master/images/composers.png)
 
