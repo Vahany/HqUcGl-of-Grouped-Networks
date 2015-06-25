@@ -26,10 +26,14 @@ then the .bee file is solved using the BumbleBEE solver.
 
 The following are examples of graph layouts produced by the models:
 ![alt tag](https://raw.githubusercontent.com/Vahany/HqUcGl-of-Grouped-Networks/master/images/composers.PNG)
+"links between major composers, arranged with our model with the solver choosing the best orientation (vertical / horizontal) for nodes. Layout took 37.422 seconds using the SAT solver - disjunctions due to variable node orientation expand the search space."
 
 ![alt tag](https://raw.githubusercontent.com/Vahany/HqUcGl-of-Grouped-Networks/master/images/state_machine.PNG)
+"Here is the same state-machine shown using our ultra-compact grid-based layout which has grid dimensions $4\times 4$ leaving only three empty grid-cells.  This optimally compact solution was found in 0.464 seconds using the SAT solver.  Although we do not explicitly minimise bends or crossings, our layout is equal to the TSM output in these respects and significantly reduces the overall area and edge-length.  With the additional node area we are able to include more detailed descriptions of each state."
 
 ![alt tag](https://raw.githubusercontent.com/Vahany/HqUcGl-of-Grouped-Networks/master/images/tetris_bug.PNG)
+"An example software-dependency graph with routing detail and the final result. Solved in 0.732 seconds with the SAT solver.  This network shows dependencies between types, methods and properties in C$^\sharp$ code and was obtained in a debugging scenario using the Visual Studio \emph{Code Map} tool.  This layout neatly illustrates the cause of the bug: that \emph{Square} is the only sub-class of \emph{Figure} not created by the \emph{GetNextFigure} method.  Code snippets and icons on each of the nodes give added context."
 
 ![alt tag](https://raw.githubusercontent.com/Vahany/HqUcGl-of-Grouped-Networks/master/images/les_miserables_lns.PNG)
+The characters from Les-Miserables represented as nodes. Characters that appear in the same scene are connected. Took CPLEX with LNS 473.61 seconds to solve it. The colouring is based on communities.
 
