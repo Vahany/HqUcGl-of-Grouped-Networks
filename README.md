@@ -24,5 +24,12 @@ Then the gridlay2dense.py takes the .mod file as input and produces a .dense fil
 Then the dense2bee.py takes the .dense file as input and produces a .bee file as output,
 then the .bee file is solved using the BumbleBEE solver.
 
+The following are examples of graph layouts produced by the models:
 ![alt tag](https://raw.githubusercontent.com/Vahany/HqUcGl-of-Grouped-Networks/master/images/composers.PNG)
+
+![alt tag](https://raw.githubusercontent.com/Vahany/HqUcGl-of-Grouped-Networks/master/images/state_machine.PNG)
+
+![alt tag](https://raw.githubusercontent.com/Vahany/HqUcGl-of-Grouped-Networks/master/images/tetris_bug.PNG)
+
+![alt tag](https://raw.githubusercontent.com/Vahany/HqUcGl-of-Grouped-Networks/master/images/les_miserables_lns.PNG)
 
