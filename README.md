@@ -11,15 +11,15 @@ The CP model (HqUcGl-cp.mzn) accepts input in minizinc data format (.dzn)
 The MIP model (HqUcGl-mip.mod) accepts input in .dat data files.
 
 The SAT model accepts input in .mod data files, which can be translated from a .mzn file using the mznout2mod.py 
-the .mzn file is pretty simple to generate with the following format:
-		#modules=
-		1: [1]
-		2: [2]
-		3: [3]
-		4: [1,2]
-		#edges=
-		(1,2)
-		(3,4)
+the .mzn file is pretty simple to generate with the following format:  
+		#modules=  
+		1: [1]  
+		2: [2]  
+		3: [3]  
+		4: [1,2]  
+		#edges=  
+		(1,2)  
+		(3,4)  
 Then the gridlay2dense.py takes the .mod file as input and produces a .dense file as output,
 Then the dense2bee.py takes the .dense file as input and produces a .bee file as output,
 then the .bee file is solved using the BumbleBEE solver.
