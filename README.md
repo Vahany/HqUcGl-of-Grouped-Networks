@@ -28,6 +28,8 @@ The following are examples of graph layouts produced by the models:
 ![alt tag](https://raw.githubusercontent.com/Vahany/HqUcGl-of-Grouped-Networks/master/images/composers.PNG)
 "links between major composers, arranged with our model with the solver choosing the best orientation (vertical / horizontal) for nodes. Layout took 37.422 seconds using the SAT solver - disjunctions due to variable node orientation expand the search space."
 
+![alt tag](https://raw.githubusercontent.com/Vahany/HqUcGl-of-Grouped-Networks/master/images/state_fd.PNG)
+![alt tag](https://raw.githubusercontent.com/Vahany/HqUcGl-of-Grouped-Networks/master/images/state_fdgs.PNG)
 ![alt tag](https://raw.githubusercontent.com/Vahany/HqUcGl-of-Grouped-Networks/master/images/state_machine.PNG)
 "Here is the same state-machine shown using our ultra-compact grid-based layout which has grid dimensions 4x4 leaving only three empty grid-cells.  This optimally compact solution was found in 0.464 seconds using the SAT solver.  Although we do not explicitly minimise bends or crossings, our layout is equal to the TSM output in these respects and significantly reduces the overall area and edge-length.  With the additional node area we are able to include more detailed descriptions of each state."
 
