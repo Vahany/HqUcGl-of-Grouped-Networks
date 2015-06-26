@@ -34,6 +34,8 @@ The following are examples of graph layouts produced by the models:
 ![alt tag](https://raw.githubusercontent.com/Vahany/HqUcGl-of-Grouped-Networks/master/images/tetris_bug.PNG)
 "An example software-dependency graph with routing detail and the final result. Solved in 0.732 seconds with the SAT solver.  This network shows dependencies between types, methods and properties in C# code and was obtained in a debugging scenario using the Visual Studio Code Map tool. This layout neatly illustrates the cause of the bug: that Square is the only sub-class of Figure not created by the GetNextFigure method.  Code snippets and icons on each of the nodes give added context."
 
+![alt tag](https://raw.githubusercontent.com/Vahany/HqUcGl-of-Grouped-Networks/master/images/les_mis_fd.PNG)
+![alt tag](https://raw.githubusercontent.com/Vahany/HqUcGl-of-Grouped-Networks/master/images/les_mis_fdgs.PNG)
 ![alt tag](https://raw.githubusercontent.com/Vahany/HqUcGl-of-Grouped-Networks/master/images/les_miserables_lns.PNG)
 The characters from Les-Miserables represented as nodes. Characters that appear in the same scene are connected. Took CPLEX with LNS 473.61 seconds to solve it. The colouring is based on communities.
 
